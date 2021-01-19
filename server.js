@@ -3,6 +3,7 @@ const cors = require('cors');
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const jsonData = require('./data.json');
+const path = require('path');
 
 //#region SETTING UP GRAPHQL SERVER
 
