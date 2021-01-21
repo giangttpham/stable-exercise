@@ -14,7 +14,7 @@ import PaginationComponent from 'react-reactstrap-pagination';
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: 'http://localhost:5000/graphql',
+  uri: '/graphql',
 });
 
 const AllMailItems = () => {
